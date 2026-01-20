@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Linux](https://img.shields.io/badge/Platform-Linux-orange)
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+
 # Network Failure Prediction System
 
 A Linux-based network health monitoring system that predicts network degradation
