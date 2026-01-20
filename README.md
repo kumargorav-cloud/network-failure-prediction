@@ -36,11 +36,12 @@ alert.py # Alert handler
 run_monitor.py # Orchestration script
 logs/ # Alert & cron logs
 
+## 🧠 Design Decisions
 
-## ▶️ How to Run
-```bash
-python3 collector.py
-python3 baseline_learner.py
-python3 risk_engine.py
+- Used active probing instead of NIC/TCP counters to remain compatible with restricted and virtualized environments.
+- Avoided hardcoded thresholds by implementing adaptive baseline learning.
+- Used explainable risk scoring instead of binary alerts to reduce false positives.
+- Designed system to run fully headless using cron, suitable for servers and cloud VMs.
 
-*/5 * * * * python3 run_monitor.py
+
+
