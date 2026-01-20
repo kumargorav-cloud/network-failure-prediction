@@ -36,6 +36,17 @@ alert.py # Alert handler
 run_monitor.py # Orchestration script
 logs/ # Alert & cron logs
 
+## 🛣️ Roadmap
+
+- [x] Active probing and metric collection
+- [x] Adaptive baseline learning
+- [x] Risk scoring engine
+- [x] Automated execution with cron
+- [ ] Email / Slack alert integration
+- [ ] Web dashboard for visualization
+- [ ] Cloud deployment (AWS EC2)
+
+
 ## 🧠 Design Decisions
 
 - Used active probing instead of NIC/TCP counters to remain compatible with restricted and virtualized environments.
