@@ -29,12 +29,12 @@ before failures occur using active probing, adaptive baselines, and risk scoring
 - Cron
 
 ## 📂 Project Structure
-collector.py # Active network probe
-baseline_learner.py # Baseline learning engine
-risk_engine.py # Risk score calculator
-alert.py # Alert handler
-run_monitor.py # Orchestration script
-logs/ # Alert & cron logs
+    collector.py # Active network probe
+    baseline_learner.py # Baseline learning engine
+    risk_engine.py # Risk score calculator
+    alert.py # Alert handler
+    run_monitor.py # Orchestration script
+    logs/ # Alert & cron logs
 
 ## 🛣️ Roadmap
 
